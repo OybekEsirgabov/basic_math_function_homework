@@ -3,4 +3,4 @@
 # Return the multiplication of a and b.
 def main(a,b):
     return a*b
-print(main(4,9))
+print(main(4,5))
