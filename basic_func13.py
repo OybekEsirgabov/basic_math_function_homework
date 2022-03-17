@@ -3,6 +3,5 @@
 # Returns the square root of a number.
 def main(a):
     import math
-    x = math.sqrt(a)
-    print(x)
+    return math.sqrt(a)
 print(main(16))
