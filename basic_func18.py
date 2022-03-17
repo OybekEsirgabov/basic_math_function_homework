@@ -4,6 +4,5 @@
 # Round the result to 2 decimal places.
 def main(a):
     from math import pi,radians
-    a = radians(pi)
-    return round(a, 2)
-print(main(4))
+    return round(radians(pi), 2)
+print(main(a))

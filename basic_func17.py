@@ -2,7 +2,6 @@
 # Create function arguments a.
 # Assign the value pi to the variable "a" and return.
 def main(a):
-    from math import pi,radians
-    a = radians(pi)
-    return a
-print(main(4))
+    from math import pi
+    return radian(pi)
+print(main(a))
